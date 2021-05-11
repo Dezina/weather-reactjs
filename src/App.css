@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+html {
+  background-color: rgb(231, 221, 224);
+}
+
+.Radio {
+  background-color: rgb(96, 170, 129);
+  border: 3px double rgb(102, 29, 29);
+  border-radius: 20px;
+  width: 800px;
+  height: 60px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.weather {
+/* background-color: rgb(176, 223, 199); */
+background-image: linear-gradient(to bottom left, rgb(117, 82, 82), rgb(229, 231, 91));
+margin: auto;
+ width: 800px;
+  height: 400px;
+}
+
+.location {
+  border-radius: 25px;
+  background: url('https://image.freepik.com/free-vector/background-template-with-yellow-wall-wooden-floor_1639-12752.jpg');
+  background-position: left top;
+  background-repeat: no-repeat;
+  padding: 20px; 
+  width: 300px;
+  height: 10px;
+
+  font-family: Georgia;
+  font-size: 23px;
+  color: #282c34;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+.time {
+  font-family: Cambria;
+  font-size: 20px;
+  color: #bd1515;
+}
+.time-sml {
+  font-family: Cambria;
+  font-size: 13px;
+  color: #bd1515;
+  width: 100%;
+  display: inline-block;
+}
+
+.condition {
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  color: #101113;
+  padding: 7px;
+  letter-spacing: 0.1em;
+  width: 250px;
+  height: 50px;
+  background-color: rgb(144, 163, 182);
+  display: inline-block;
+  font-family: Verdana;
+}
+.current-temp {
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  color: #101113;
+  padding: 10px;
+  letter-spacing: 0.1em;
+  border-radius: 15px;
+  background-color: blanchedalmond;
+  text-align: center;
+}
+.temp {
+  font-family: Impact;
+  font-size: 15px;
+  color: rgb(8, 8, 8);
+  letter-spacing: 0.1em;
+}
+
+.btn-group .button {
+  background-color: #53bb57; /* Green */
+  border: 1px solid rgb(2, 95, 2);
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-bottom: 3px inset rgb(194, 63, 63);
+  font-size: 18px;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.btn-group .button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+  background-color: #3e8e41;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 90%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  overflow: auto;
+  margin: auto;
+}
+#temperature {
+  background-color: #bbb;
+}
